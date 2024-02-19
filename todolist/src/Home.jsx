@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Create from './Create'
-
-
+import "./App.css";
 
 const Home = () => {
     const [todos,setTodos] = useState([]);
   return (
-    <div>
+    <div className="home">
       <h2>To do List</h2>
       <Create />
       {
