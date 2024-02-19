@@ -5,7 +5,7 @@ import "./App.css";
 const Home = () => {
     const [todos,setTodos] = useState([]);
   return (
-    <div className="home">
+    <div class="home">
       <h2>To do List</h2>
       <Create />
       {
